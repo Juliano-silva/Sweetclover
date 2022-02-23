@@ -1,0 +1,8 @@
+.Caixa{
+    border: 1px solid red;
+    width: 50em;
+    margin: auto;
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+.Header{
+    font-size: 5em;
+    background: rebeccapurple;
+}
+.Container{
+    border: 1px solid rebeccapurple;
+}
+form{
+   
+    width: 42em;
+    margin-left: 30%;
+    margin-top: -60px;
+}
+input{
+    width: 45em;
+    height: 45px;
+    border: 1px solid rebeccapurple;
+}
+button{
+    width: 3.7em;
+    height: 3.7em;
+    border: 1px solid rebeccapurple;
+    background: rgb(65, 63, 63);
+}
+input::placeholder{
+    color: white;
+}
+ul{
+    margin-left: 75%;
+    margin-top: -45px;
+    color:white;
+    font-size: 25px;
+}
+li{
+    border: 1px solid transparent;
+    width: 1em;
+    height: 1em;
+    list-style: none;
+    display: inline-block;
+    padding: 0.5em;
+}
+.ico{
+    border: 1px solid transparent;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+}
