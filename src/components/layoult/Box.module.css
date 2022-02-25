@@ -3,6 +3,53 @@
     width: 50em;
     margin: auto;
     display: block;
-    margin-top: 100px;
-    text-align: center;
+}
+.ico{
+    margin-left: 2%;
+    border: 1px solid red;
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 2.5em;
+    height: 2.5em;
+    animation: pulse infinite 2s;
+}
+.title{
+    margin-top: -45px;
+    margin-left: 8%;
+    width: 10em;
+}
+.IcoCima{
+    width: 5em;
+    display: block;
+    background: transparent;
+    border: 1px solid transparent;
+    margin-top: -49px;
+    margin-left: 90%;
+    font-size: 20px;
+}
+.boxBaixo{
+    margin-top: -5px;
+    margin-left: -0.5%;
+}
+.buttonB{
+    width: 3em;
+    height: 2em;
+    font-size: 20px;
+    background: transparent;
+    border: 1px solid transparent;
+}
+.boxBaixo > .buttonB:nth-child(4){
+    margin-left: 68%;
+}
+@keyframes pulse {
+    0%{
+        background-image: linear-gradient(red,green,blue,yellow);
+        filter: brightness(200px);
+        transform: scale(1);
+    }
+    100%{
+        background-image: linear-gradient(rgb(228, 24, 201),rgb(117, 111, 27),rgb(120, 120, 218),rgb(121, 196, 125));
+        filter: brightness(300px);
+        transform: scale(1);
+    }
 }

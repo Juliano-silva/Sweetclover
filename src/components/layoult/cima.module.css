@@ -1,0 +1,16 @@
+.cima{
+    border: 1px solid rebeccapurple;
+    width: 50em;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    height: 6em;
+}
+.icons{
+    border: 1px solid palevioletred;
+    border-radius: 50%;
+    width: 5.4em;
+    height: 5em;
+    margin-top: 5px;
+    background-image: linear-gradient(purple,red,green);
+}

@@ -1,0 +1,11 @@
+.footer{
+    color: red;
+    text-align: center;
+    border: 1px solid tomato;
+    background: tomato;
+    width: 99.9%;
+    height: 30em;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+}
