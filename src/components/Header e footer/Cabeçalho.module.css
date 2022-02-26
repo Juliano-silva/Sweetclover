@@ -3,7 +3,7 @@
     background: rebeccapurple;
 }
 .Container{
-    border: 1px solid rebeccapurple;
+    border: 1px solid transparent;
 }
 form{
    
@@ -44,4 +44,13 @@ li{
     width: 1em;
     height: 1em;
     border-radius: 50%;
+}
+.Add{
+    margin: auto;
+    display: block;
+    border: 1px solid teal;
+    color: brown;
+    width: 50em;
+    height: 30em;
+    margin-top: 20px;
 }
