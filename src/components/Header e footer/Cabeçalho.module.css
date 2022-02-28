@@ -1,15 +1,21 @@
 .Header{
     font-size: 5em;
     background: rebeccapurple;
+    display: inline-block;
+    position: fixed;
+    width: 100%;
 }
 .Container{
     border: 1px solid transparent;
+    margin-top: -1px;
+    margin-left: -3px;
 }
 form{
-   
+    display: inline-block;
+    position: fixed;
     width: 42em;
     margin-left: 30%;
-    margin-top: -60px;
+    margin-top: 30px;
 }
 input{
     width: 45em;
@@ -26,8 +32,10 @@ input::placeholder{
     color: white;
 }
 ul{
+    display: inline-block;
+    position: fixed;
     margin-left: 75%;
-    margin-top: -45px;
+    margin-top: 30px;
     color:white;
     font-size: 25px;
 }
@@ -46,11 +54,13 @@ li{
     border-radius: 50%;
 }
 .Add{
-    margin: auto;
-    display: block;
+    display: inline-block;
+    position: fixed;
+    margin-left: 23.9%;
     border: 1px solid teal;
+    background: red;
     color: brown;
     width: 50em;
-    height: 30em;
+    height: 40em;
     margin-top: 20px;
 }

@@ -1,8 +1,54 @@
 .fixed{
-    border: 1px solid saddlebrown;
+    border: 1px solid transparent;
     width: 15em;
-    height: 30em;
+    height: 36em;
     margin-left: 80%;
-    margin-top: -59.5em;
+    margin-top: -67em;
     position: fixed;
+}
+.imgB{
+    border: 1px solid transparent;
+    width: 6em;
+    border-radius: 50%;
+    margin-top: 6px;
+    margin-left: -10px;
+}
+.h1{
+    width: 5.5em;
+    font-size: 1.5em;
+    margin-left: 4em;
+    margin-top: -3.4em;
+}
+.name{
+    width: 5.3em;
+    margin-left: 6em;
+}
+.url1{
+    border: 1px solid skyblue;
+    height: 3em;
+    background: azure;
+    border-radius: 50%;
+}
+.ContentB{
+    margin-left: 4em;
+    margin-top: -3em;
+}
+.lorem{
+    font-size: 12px;
+    color: grey;
+}
+h6{
+    margin-top: 35px;
+    font-size: 15px;
+}
+.baixo{
+    width: 29em;
+    height: 11em;
+    margin: auto;
+    display: block;
+    font-size: 7px;
+    margin-top: 40px;
+}
+.tudo{
+    margin-top: 10px;
 }

@@ -2,3 +2,22 @@
     margin: 0;
     padding: 0;
 }
+::-webkit-scrollbar{
+    background: rgb(102, 101, 101);
+    width: 10px;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb{
+    border: 1px solid yellow;
+    background: purple;
+    border-radius: 30px;
+}
+body{
+    height: 375em;
+    background: #021418;
+    color: white;
+}
+.down{
+    margin-top: 5.6em;
+}

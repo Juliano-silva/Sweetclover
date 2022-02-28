@@ -5,6 +5,7 @@
     display: block;
 }
 .ico{
+    display: block;
     margin-left: 2%;
     border: 1px solid red;
     margin-top: 10px;
@@ -28,28 +29,34 @@
     font-size: 20px;
 }
 .boxBaixo{
-    margin-top: -5px;
+    margin-top: -1px;
     margin-left: -0.5%;
-}
-.buttonB{
-    width: 3em;
-    height: 2em;
-    font-size: 20px;
-    background: transparent;
     border: 1px solid transparent;
 }
-.boxBaixo > .buttonB:nth-child(4){
-    margin-left: 68%;
+.buttonB > button{
+    font-size: 1.3em;
+    background: transparent;
+    border: 1px solid transparent;
+    margin-top: -1px;
+    margin-left: 1%;
+}
+.buttonB > button:nth-child(2){
+    margin-left: 10%;
+}
+.buttonB > button:nth-child(1){
+    border: 1px solid transparent;
+    display: inline;
+    position: absolute;
+    margin-top: -0.2em;
+}
+.buttonB > button:nth-child(4){
+    margin-left: 60%;
 }
 @keyframes pulse {
     0%{
         background-image: linear-gradient(red,green,blue,yellow);
-        filter: brightness(200px);
-        transform: scale(1);
     }
     100%{
         background-image: linear-gradient(rgb(228, 24, 201),rgb(117, 111, 27),rgb(120, 120, 218),rgb(121, 196, 125));
-        filter: brightness(300px);
-        transform: scale(1);
     }
 }

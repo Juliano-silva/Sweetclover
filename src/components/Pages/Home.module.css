@@ -4,3 +4,21 @@
 .mouse{
     border: 1px solid transparent;
 }
+.pro{
+    margin: auto;
+    display: block;
+    margin-top: 100px;
+    height: 10em;
+    width: 20em;
+    font-size: 2em;
+}
+.Add{
+    display: none;
+    margin-left: 28.5%;
+    border: 1px solid teal;
+    background: rgb(102, 101, 101);
+    color: white;
+    width: 50.2em;
+    height: 45em;
+    margin-top: 20px;
+}

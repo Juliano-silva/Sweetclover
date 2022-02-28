@@ -1,22 +1,23 @@
 import Box from '../layoult/Box.js';
 import Fixed from '../layoult/fixed.js'
 import Cima from '../layoult/cima.js'
-import Footer from "../Header e footer/Footer.js"
 import styles from './Home.module.css'
-import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import Add from './add.js'
-function mouseup(){
-    const fix = document.getElementById("fixed");
-    fix.style.display="block"
-}
-function mousedown(){
-    const fix = document.getElementById("fixed");
-    fix.style.display="none"
+function des(){
+    const botão = document.getElementById("adicionar")
+    const fun = document.getElementById("corpo")
+    const ml = document.querySelector("html")
+    fun.style.filter="none"
+    botão.style.display="none"
+    ml.style.overflowY="auto"
 }
 function Home(){
     return(
         <div>
-            <div onMouseEnter={mouseup}>
+             <div id='adicionar' className={styles.Add}>
+                 <Add/><button className={styles.pro} onClick={des}>Click</button>
+            </div>
+            <div id='corpo'>
             <Cima/>
             <div className={styles.Coisas}>
             <Box/>
@@ -27,11 +28,8 @@ function Home(){
             <Box/>
             <Box/>
             </div>
-            <div className={styles.mouse} onMouseEnter={mousedown}>
-            <Footer/>
             </div>
             </div>
-        </div>
     )
 }
 export default Home
