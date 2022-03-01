@@ -64,3 +64,16 @@ li{
     height: 40em;
     margin-top: 20px;
 }
+.BoxC{
+    overflow: auto;
+    border: 1px solid rgb(146, 146, 146);
+    background: rgb(146, 146, 146);
+    width: 25em;
+    height: 8em;
+    margin-left: 103%;
+    margin-top: -5px;
+}
+.inputns{
+    width: 10em;
+    height: 10em;
+}

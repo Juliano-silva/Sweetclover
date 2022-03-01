@@ -1,6 +1,9 @@
+import styles from './Bússola.module.css'
 function Bússola(){
     return(
-        <h1>Bússola</h1>
+        <div className={styles.busso}>
+            <h1>Em manutenção</h1>
+        </div>
     )
 }
 export default Bússola

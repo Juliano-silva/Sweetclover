@@ -1,0 +1,45 @@
+.chat{
+    border: 1px solid grey;
+    width: 60em;
+    height: 50em;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    margin-top: 7em;
+}
+.icons{
+    border: 1px solid grey;
+    width: 20em;
+    height: 50em;
+    border-radius: 10px 0px 0px 10px;
+    border-left: transparent ;
+    border-bottom: transparent ;
+    border-top: transparent ;
+}
+.icons > h1{
+    text-align: center;
+}
+.icons > img{
+    display: block;
+    padding: 0.5em;
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+}
+.icons > hr:nth-child(2){
+    border: 1px solid rosybrown;
+    margin-left: 100%;
+    width: 39.8em;
+}
+.inputs{
+    border: 1px solid red;
+    width: 38em;
+    margin-top: -2.2%;
+    margin-left: 34%;
+    border-radius: 20px;
+}
+.inputs > input{
+    border-radius: 20px;
+    width: 45.3em;
+    height: 1em;
+}
