@@ -6,12 +6,25 @@ import img4 from '../img/4.gif'
 import img5 from '../img/5.gif'
 import img6 from '../img/6.gif'
 import ico from '../img/Pro.jpg'
+import React from "react";
+import {BiPencil} from "react-icons/bi";
+import Api from '../API by name/Api'
+import Nome from '../API by name/Nome'
+function Bipen(){
+    const apis = document.getElementById("Apit")
+    apis.style.display="block"
+}
 function Perfil(){
-    document.title = "ju.liano1841"
     return(
         <div className={styles.container}>
+            <div className={styles.API}>
+            <div id='Apit' className={styles.Apit}>
+            <Api/>
+            </div>
+            <Nome/>
+            <BiPencil onClick={Bipen} className={styles.Pencil}/>
+            </div>
             <img className={styles.imgi} src={ico} />
-            <h1 className={styles.ju}>ju.liano1841</h1>
             <h3 className={styles.puse}>
             <span>0 publicações</span>
             <span>36 seguidores</span>
@@ -25,6 +38,20 @@ function Perfil(){
                 <img className={styles.imgN} src={img2}/>
                 <img className={styles.imgN} src={img3}/>
                 <img className={styles.imgN} src={img4}/>
+                <img className={styles.imgN} src={img5}/>
+                <img className={styles.imgN} src={img6}/>
+                <img className={styles.imgN} src={img1}/>
+                <img className={styles.imgN} src={img2}/>
+                <img className={styles.imgN} src={img3}/>
+                <img className={styles.imgN} src={img4}/>
+                <img className={styles.imgN} src={img5}/>
+                <img className={styles.imgN} src={img6}/>
+                <img className={styles.imgN} src={img1}/>
+                <img className={styles.imgN} src={img2}/>
+                <img className={styles.imgN} src={img3}/>
+                <img className={styles.imgN} src={img4}/>
+                <img className={styles.imgN} src={img5}/>
+                <img className={styles.imgN} src={img6}/>
                 <img className={styles.imgN} src={img5}/>
                 <img className={styles.imgN} src={img6}/>
             </div>

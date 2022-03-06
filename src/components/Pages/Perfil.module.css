@@ -18,6 +18,7 @@
 }
 .puse{
     margin-right: 17%;
+    margin-top: 10px;
 }
 h3 > span{
     padding: 1em;
@@ -31,8 +32,8 @@ h3 > span{
     margin: 0 auto;
 }
 .imgN:hover {
-    transform: scale(1.5);
-    background: rebeccapurple;
+    transform: scale(2);
+    background: black;
   }
 .palavr{
     border: 1px solid silver;
@@ -40,4 +41,21 @@ h3 > span{
     width: 30em;
     margin-left: 28%;
     margin-top: 10px;
+}
+.Pencil{
+    display: block;
+    visibility: visible;
+    font-size: 1.5em;
+    margin-top: -33px;
+    margin-left: 34em;
+    cursor: pointer;
+}
+.API{
+    width: 30em;
+    display: block;
+    margin-top: 20px;
+    margin-left: 470px;
+}
+.Apit{
+    display: none;
 }

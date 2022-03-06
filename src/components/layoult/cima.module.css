@@ -1,9 +1,7 @@
 .cima{
-    border: 1px solid rebeccapurple;
+    border: 1px solid gray;
     width: 50em;
-    margin: auto;
-    display: block;
-    margin-top: 30px;
+    margin-left: 20%;
     height: 6em;
     margin-top: 100px;
 }
@@ -12,6 +10,10 @@
     border-radius: 50%;
     width: 5.4em;
     height: 5em;
-    margin-top: 5px;
-    background-image: linear-gradient(purple,red,green);
+    margin-top: -35px;
+    margin-left: -1em;
+    background-image: linear-gradient(purple,red,green,black,white);
+}
+.cima > li{
+    padding: 2.4em;
 }

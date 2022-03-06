@@ -26,19 +26,19 @@
     width: 5em;
     height: 5em;
 }
-.icons > hr:nth-child(2){
-    border: 1px solid rosybrown;
-    margin-left: 100%;
-    width: 39.8em;
+.icons > hr{
+    border: 1px solid gray;
+    width: 59.9em;
 }
 .inputs{
-    border: 1px solid red;
+    border: 1px solid transparent;
     width: 38em;
-    margin-top: -2.2%;
+    margin-top: -20%;
     margin-left: 34%;
     border-radius: 20px;
 }
 .inputs > input{
+    border: 1px solid transparent;
     border-radius: 20px;
     width: 45.3em;
     height: 1em;

@@ -1,0 +1,23 @@
+.name{
+    border-radius: 20px;
+    width: 44em;
+    margin: auto;
+    display: block;
+    margin-left: 30px;
+}
+.form{
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+.props{
+    margin-top: -550px;
+    height: 42em;
+    width: 39em;
+    overflow: auto;
+}
+.Class{
+    display: block;
+    font-size: 12px;
+    width: 1em;
+}

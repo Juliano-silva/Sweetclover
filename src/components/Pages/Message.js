@@ -1,12 +1,15 @@
 import styles from './Message.module.css'
 import url from '../img/Pro.jpg'
+import Nome from '../API by name/Nome'
+import MovieList from '../API by Mensagem/MovieList';
+import { MovieProvider } from '../API by Mensagem/MovieContext';
+import AddMovie from '../API by Mensagem/AddMovie'
 function Message(){
     return(
         <div>
             <div className={styles.chat}>
                 <div className={styles.icons}>
-                    <h1>ju.liano1841</h1>
-                    <hr />
+                    <Nome/>
                     <hr />
                     <img src={url} />
                     <img src={url} />
@@ -18,7 +21,10 @@ function Message(){
                     <img src={url} />
                 </div>
                 <div className={styles.inputs}>
-                    <input type="text" placeholder='Escreva algo aqui'/>
+                <MovieProvider>
+                        <MovieList/>
+                        <AddMovie/>
+                    </MovieProvider>
                 </div>
             </div>
         </div>
