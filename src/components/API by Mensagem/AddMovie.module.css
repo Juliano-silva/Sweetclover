@@ -17,7 +17,7 @@
     overflow: auto;
 }
 .Class{
-    display: block;
+    display: flex;
     font-size: 12px;
-    width: 1em;
+    width: 51em;
 }

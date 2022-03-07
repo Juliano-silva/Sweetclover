@@ -12,7 +12,7 @@ function double(){
   ml.style.overflowY="hidden"
 }
   function checkMe(){
-    var cb = document.getElementById("abc");
+    var cb = document.getElementById("Add");
     var text = document.getElementById("msg");
     if(cb.checked==true){
         text.style.display="block";
@@ -30,18 +30,20 @@ function Cabeçalho(){
       <form id="form" action="#" method="post">
         <input type="text" name="seach" id="seach" placeholder="Faça sua busca" required/>
         <div>
+          {/* Add/Coração */}
           <label>
             <p id='msg' className={styles.BoxC}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis exercitationem, facilis omnis libero pariatur blanditiis officia amet inventore alias aliquid! Excepturi molestias, reiciendis modi cumque deleniti, perferendis dolore at eveniet provident unde mollitia delectus quasi, nulla accusantium ipsa reprehenderit a. Veritatis ratione ex ea sapiente! Nihil aut voluptatem fugit facere eaque dolorum doloremque perferendis ipsam, similique esse accusamus velit quis consequuntur sit eum est assumenda voluptate nemo cupiditate alias! Quam fugit doloribus deserunt delectus atque eligendi porro enim suscipit architecto corporis id deleniti facere aliquid, minus ut illum nihil culpa dolorem ipsum harum! Nobis libero magni veniam. Laboriosam, pariatur officiis.</p>
           </label>
         </div>
       </form>
-      <div>
+      {/* Icones */}
+      <div className={styles.icone1}>
       <ul>
         <li><Link to="/"><AiFillHome/></Link></li>
         <li><Link to="/Message"><MdOutlineMessage/></Link></li>
         <li><Link onClick={double}><GrAddCircle/></Link></li>
         <li><Link to="/Bússola"><AiOutlineCompass/></Link></li>
-        <label><input type="checkbox" className={styles.checkME} id="abc" onClick={checkMe}/><li className={styles.heart}><AiOutlineHeart/></li></label>
+        <label><input type="checkbox" className={styles.checkME} id="Add" onClick={checkMe}/><li className={styles.heart}><AiOutlineHeart/></li></label>
         <li><Link to="/Perfil"><img className={styles.ico} src={Ico}/></Link></li>
       </ul>
       </div>

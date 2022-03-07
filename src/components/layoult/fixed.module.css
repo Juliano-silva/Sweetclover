@@ -25,7 +25,7 @@
     width: 5.3em;
     margin-left: 6em;
 }
-.url1{
+.url{
     border: 1px solid skyblue;
     height: 3em;
     background: azure;
@@ -41,7 +41,7 @@
 }
 h6{
     text-align: center;
-    margin-top: 60px;
+    margin-top: 5px;
     font-size: 15px;
 }
 .baixo{

@@ -1,6 +1,6 @@
 import styles from './fixed.module.css'
 import url from '../img/Pro.jpg'
-import url1 from '../img/CEV.png'
+import ico from '../icones/perfil.png'
 import Nome from '../API by name/Nome'
 function Seguir(){
     const seg = document.getElementById("seguindo")
@@ -22,9 +22,9 @@ function fixed(){
             <h6>Sugestões para você</h6>
             <div className={styles.tudo}>
             <div className={styles.icoB}>
-                <img src={url1} className={styles.url1}/>
+                <img src={ico} className={styles.url}/>
                 <div className={styles.ContentB}>
-                <h4 className={styles.h4}>nome</h4>
+                <h4 className={styles.h4}>Cuacoxo</h4>
                 <button className={styles.seguir}>
                     <p id='seguir' onClick={Seguir}>Seguir</p>
                     <p id='seguindo' onClick={Seguindo}>Seguindo</p>
@@ -35,9 +35,9 @@ function fixed(){
             </div>
             <div className={styles.tudo}>
             <div className={styles.icoB}>
-                <img src={url1} className={styles.url1}/>
+                <img src={ico} className={styles.url}/>
                 <div className={styles.ContentB}>
-                <h4 className={styles.h4}>nome</h4>
+                <h4 className={styles.h4}>Cousgal</h4>
                 <button className={styles.seguir}>
                     <p id='seguir' onClick={Seguir}>Seguir</p>
                     <p id='seguindo' onClick={Seguindo}>Seguindo</p>
@@ -48,9 +48,9 @@ function fixed(){
             </div>
             <div className={styles.tudo}>
             <div className={styles.icoB}>
-                <img src={url1} className={styles.url1}/>
+                <img src={ico} className={styles.url}/>
                 <div className={styles.ContentB}>
-                <h4 className={styles.h4}>nome</h4>
+                <h4 className={styles.h4}>Wigen</h4>
                 <button className={styles.seguir}>
                     <p id='seguir' onClick={Seguir}>Seguir</p>
                     <p id='seguindo' onClick={Seguindo}>Seguindo</p>
@@ -61,9 +61,9 @@ function fixed(){
             </div>
             <div className={styles.tudo}>
             <div className={styles.icoB}>
-                <img src={url1} className={styles.url1}/>
+                <img src={ico} className={styles.url}/>
                 <div className={styles.ContentB}>
-                <h4 className={styles.h4}>nome</h4>
+                <h4 className={styles.h4}>Tardoin</h4>
                 <button className={styles.seguir}>
                     <p id='seguir' onClick={Seguir}>Seguir</p>
                     <p id='seguindo' onClick={Seguindo}>Seguindo</p>
@@ -74,9 +74,9 @@ function fixed(){
             </div>
             <div className={styles.tudo}>
             <div className={styles.icoB}>
-                <img src={url1} className={styles.url1}/>
+                <img src={ico} className={styles.url}/>
                 <div className={styles.ContentB}>
-                <h4 className={styles.h4}>nome</h4>
+                <h4 className={styles.h4}>Zigawuy</h4>
                 <button className={styles.seguir}>
                     <p id='seguir' onClick={Seguir}>Seguir</p>
                     <p id='seguindo' onClick={Seguindo}>Seguindo</p>
@@ -87,9 +87,9 @@ function fixed(){
             </div>
             <div className={styles.tudo}>
             <div className={styles.icoB}>
-                <img src={url1} className={styles.url1}/>
+                <img src={ico} className={styles.url}/>
                 <div className={styles.ContentB}>
-                <h4 className={styles.h4}>nome</h4>
+                <h4 className={styles.h4}>Yolxis</h4>
                 <button className={styles.seguir}>
                     <p id='seguir' onClick={Seguir}>Seguir</p>
                     <p id='seguindo' onClick={Seguindo}>Seguindo</p>

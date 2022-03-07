@@ -1,3 +1,29 @@
+/* Caneta */
+.Penc{
+    cursor: pointer;
+    display: block;
+    visibility: visible;
+    font-size: 1.5em;
+    margin-top: 160px;
+    margin-left: 46em;
+}
+/*  icone do user  */
+
+/* User */
+.Apit{
+    display: none;
+    margin-top: 10px;
+}
+.TESTE{
+    text-align: left;
+    width: 32em;
+    margin-top: -115px;
+    margin-left: 180px;
+}
+
+/* Seguindores */
+
+/* BIO */   
 .container{
     text-align: center;
 }
@@ -5,57 +31,37 @@
     width: 70%;
     margin: auto;
     display: block;
-    margin-top: 1%;
+    margin-top: 2%;
+    border: 1px solid black;
+}
+.container > h2{
+    text-align: center;
+    color: red;
+    margin-top: 10px;
 }
 .imgi{
     border-radius: 50%;
-    margin-right: 60%;
-    margin-top: 1%;
-}
-.ju{
-    margin-top: -4.3em;
-    margin-right: 30%;
+    margin-right: 50%;
+    margin-top: -5%;
 }
 .puse{
-    margin-right: 17%;
+    margin-right: 4%;
     margin-top: 10px;
 }
 h3 > span{
     padding: 1em;
+    font-size: 1.3em;
 }
-.imgN{
-    border: 1px solid salmon;
-    padding: 50px;
-    transition: transform .2s;
-    width: 20em;
-    height: 10em;
-    margin: 0 auto;
-}
-.imgN:hover {
-    transform: scale(2);
-    background: black;
-  }
 .palavr{
     border: 1px solid silver;
     background: silver;
-    width: 30em;
-    margin-left: 28%;
+    width: 34em;
+    margin-left: 32%;
     margin-top: 10px;
-}
-.Pencil{
-    display: block;
-    visibility: visible;
-    font-size: 1.5em;
-    margin-top: -33px;
-    margin-left: 34em;
-    cursor: pointer;
 }
 .API{
     width: 30em;
     display: block;
     margin-top: 20px;
     margin-left: 470px;
-}
-.Apit{
-    display: none;
 }

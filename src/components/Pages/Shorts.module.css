@@ -1,7 +1,11 @@
 .Short{
-    display: inline-block;
     border: 1px solid royalblue;
-    width: 15em;
-    height: 40em;
+    width: 18em;
+    height: 50em;
+    display: inline-block;
     margin: auto;
+    margin-left: 20px;
+}
+.Short:hover{
+    transform: scale(1.1);
 }

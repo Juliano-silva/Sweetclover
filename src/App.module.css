@@ -12,7 +12,7 @@ html{
 }
 
 ::-webkit-scrollbar-thumb{
-    border: 1px solid yellow;
+    border: 1px solid rgb(179, 176, 170);
     background: purple;
     border-radius: 30px;
 }

@@ -8,12 +8,12 @@
 .icons{
     border: 1px solid palevioletred;
     border-radius: 50%;
-    width: 5.4em;
-    height: 5em;
-    margin-top: -35px;
-    margin-left: -1em;
+    width: 2.5em;
+    height: 2.5em;
+    margin-top: -20px;
+    margin-left: 0.5em;
     background-image: linear-gradient(purple,red,green,black,white);
 }
 .cima > li{
-    padding: 2.4em;
+    padding: 1em;
 }

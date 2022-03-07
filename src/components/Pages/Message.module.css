@@ -7,6 +7,23 @@
     border-radius: 10px;
     margin-top: 7em;
 }
+.lado{
+    width: 20em;
+    margin-left: 321px;
+    margin-top: -40px;
+    height: 2.4em;
+    display: flex;
+}
+.lado > img{
+    width: 2em;
+    height: 2em;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.lado > h1{
+    font-size: 15px;
+}
 .icons{
     border: 1px solid grey;
     width: 20em;
@@ -21,7 +38,7 @@
 }
 .icons > img{
     display: block;
-    padding: 0.5em;
+    padding: 0.8em;
     border-radius: 50%;
     width: 5em;
     height: 5em;
@@ -42,4 +59,11 @@
     border-radius: 20px;
     width: 45.3em;
     height: 1em;
+}
+.Nomes{
+    width: 4em;
+    margin: auto;
+    display: block;
+    margin-top: -80px;
+    padding: 15px;
 }

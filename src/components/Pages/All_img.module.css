@@ -1,0 +1,12 @@
+.imgInst{
+    border: 1px solid tomato;
+    width: 30em;
+    height: 30em;
+}
+.imgInst:hover {
+    transform: scale(1.6);
+    background: black;
+}
+.BoxInst{
+    margin-top: 10px;
+}

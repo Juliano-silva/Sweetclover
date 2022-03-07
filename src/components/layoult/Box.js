@@ -4,7 +4,7 @@ import Checkbox from '@material-ui/core/Checkbox';
 import Favorite from '@material-ui/icons/Favorite';
 import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
 import styles from './Box.module.css'
-import CEV from '../img/CEV.png';
+import ico from '../icones/perfil.png'
 import {BsThreeDots} from "react-icons/bs"; 
 import { MdOutlineMessage } from "react-icons/md";
 import Url from '../img/React js.jpg'
@@ -19,7 +19,7 @@ function Box(){
     return(
         <div className={styles.Caixa}><div>
           <div className={styles.Box}>
-          <img className={styles.ico} src={CEV} />
+          <img className={styles.ico} src={ico} />
           <h1>Sambinha</h1>
           <button><BsThreeDots/></button>
           <img className={styles.ico1} src={Url}/>
