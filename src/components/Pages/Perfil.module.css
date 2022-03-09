@@ -1,11 +1,12 @@
 /* Caneta */
 .Penc{
+    
     cursor: pointer;
-    display: block;
     visibility: visible;
+    width: 10em;
     font-size: 1.5em;
-    margin-top: 160px;
-    margin-left: 46em;
+    display: block;
+    margin: auto;
 }
 /*  icone do user  */
 
@@ -60,4 +61,9 @@ h3 > span{
     width: 34em;
     margin-left: 32%;
     margin-top: 10px;
+}
+.ComeP{
+    width: 60em;
+    display: block;
+    margin: auto;
 }

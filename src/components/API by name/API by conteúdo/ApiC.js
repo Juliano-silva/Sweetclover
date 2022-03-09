@@ -1,6 +1,6 @@
 import React from "react";
-import Login from "./login";
-import { useAuth } from "./auth";
+import Login from "./loginC";
+import { useAuth } from "./authC";
 function App() {
   const { user } = useAuth();
   console.log(user);

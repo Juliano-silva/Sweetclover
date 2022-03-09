@@ -6,13 +6,12 @@
     margin-top: 100px;
 }
 .icons{
-    border: 1px solid palevioletred;
+    border: 1px solid rgb(248, 80, 136);
     border-radius: 50%;
     width: 2.5em;
     height: 2.5em;
     margin-top: -20px;
     margin-left: 0.5em;
-    background-image: linear-gradient(purple,red,green,black,white);
 }
 .cima > li{
     padding: 1em;

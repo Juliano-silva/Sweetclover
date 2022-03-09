@@ -5,19 +5,16 @@
     border-top: transparent;
     border-left: transparent;
     border-right: transparent;
-    position: fixed;
     display: block;
-    width: 100%;
-}
-.Header > h1{
-    font-size: 3em;
-    margin-left: 14%;
     font-family: 'Roboto', sans-serif;
+    font-size: 3em;
 }
 .Container{
-    border: 1px solid transparent;
-    margin-top: -1px;
-    margin-left: -3px;
+    border: 1px solid blue;
+    height: 3.8em;
+    width: 100%;
+    margin: auto;
+    display: block;
 }
 form{
     border: 1px solid transparent;
@@ -31,9 +28,9 @@ input{
     width: 30em;
     height: 45px;
     margin: auto;
-    position: fixed;
     display: block;
-    margin-left: 10em;
+    margin: auto;
+    background: #021418;
     border: 1px solid rebeccapurple;
 }
 input::placeholder{
@@ -69,7 +66,7 @@ input::placeholder{
 .heart{
     cursor: pointer;
 }
-input[type="checkbox"]{
+label > input[type="checkbox"]{
     visibility: hidden;
     display: none;
 }

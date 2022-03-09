@@ -25,11 +25,9 @@ function fixed(){
                 <img src={ico} className={styles.url}/>
                 <div className={styles.ContentB}>
                 <h4 className={styles.h4}>Cuacoxo</h4>
-                <button className={styles.seguir}>
-                    <p id='seguir' onClick={Seguir}>Seguir</p>
-                    <p id='seguindo' onClick={Seguindo}>Seguindo</p>
-                </button>
-                <p className={styles.lorem}>Lorem ipsum, dolor sit amet nam aut. Aliquid voluptatibus </p>
+                    <button className={styles.seguir} id='seguir' onClick={Seguir}>seguir</button>
+                    <button id='seguindo' onClick={Seguindo} className={styles.seg}>seguindo</button>
+                <p className={styles.lorem}>Seguido(a) por Sambinha</p>
                 </div>
             </div>
             </div>
@@ -38,11 +36,8 @@ function fixed(){
                 <img src={ico} className={styles.url}/>
                 <div className={styles.ContentB}>
                 <h4 className={styles.h4}>Cousgal</h4>
-                <button className={styles.seguir}>
-                    <p id='seguir' onClick={Seguir}>Seguir</p>
-                    <p id='seguindo' onClick={Seguindo}>Seguindo</p>
-                </button>
-                <p className={styles.lorem}>Lorem ipsum, dolor sit amet nam aut. Aliquid voluptatibus </p>
+                
+                <p className={styles.lorem}>Seguido(a) por Sambinha</p>
                 </div>
             </div>
             </div>
@@ -51,11 +46,8 @@ function fixed(){
                 <img src={ico} className={styles.url}/>
                 <div className={styles.ContentB}>
                 <h4 className={styles.h4}>Wigen</h4>
-                <button className={styles.seguir}>
-                    <p id='seguir' onClick={Seguir}>Seguir</p>
-                    <p id='seguindo' onClick={Seguindo}>Seguindo</p>
-                </button>
-                <p className={styles.lorem}>Lorem ipsum, dolor sit amet nam aut. Aliquid voluptatibus </p>
+                
+                <p className={styles.lorem}>Seguido(a) por Sambinha</p>
                 </div>
             </div>
             </div>
@@ -64,11 +56,8 @@ function fixed(){
                 <img src={ico} className={styles.url}/>
                 <div className={styles.ContentB}>
                 <h4 className={styles.h4}>Tardoin</h4>
-                <button className={styles.seguir}>
-                    <p id='seguir' onClick={Seguir}>Seguir</p>
-                    <p id='seguindo' onClick={Seguindo}>Seguindo</p>
-                </button>
-                <p className={styles.lorem}>Lorem ipsum, dolor sit amet nam aut. Aliquid voluptatibus </p>
+                
+                <p className={styles.lorem}>Seguido(a) por Sambinha</p>
                 </div>
             </div>
             </div>
@@ -77,11 +66,8 @@ function fixed(){
                 <img src={ico} className={styles.url}/>
                 <div className={styles.ContentB}>
                 <h4 className={styles.h4}>Zigawuy</h4>
-                <button className={styles.seguir}>
-                    <p id='seguir' onClick={Seguir}>Seguir</p>
-                    <p id='seguindo' onClick={Seguindo}>Seguindo</p>
-                </button>
-                <p className={styles.lorem}>Lorem ipsum, dolor sit amet nam aut. Aliquid voluptatibus </p>
+               
+                <p className={styles.lorem}>Seguido(a) por Sambinha</p>
                 </div>
             </div>
             </div>
@@ -90,11 +76,8 @@ function fixed(){
                 <img src={ico} className={styles.url}/>
                 <div className={styles.ContentB}>
                 <h4 className={styles.h4}>Yolxis</h4>
-                <button className={styles.seguir}>
-                    <p id='seguir' onClick={Seguir}>Seguir</p>
-                    <p id='seguindo' onClick={Seguindo}>Seguindo</p>
-                </button>
-                <p className={styles.lorem}>Lorem ipsum, dolor sit amet nam aut. Aliquid voluptatibus </p>
+                
+                <p className={styles.lorem}>Seguido(a) por Sambinha</p>
                 </div>
             </div>
             </div>

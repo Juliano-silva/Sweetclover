@@ -5,13 +5,11 @@ import React from "react";
 import {BiPencil} from "react-icons/bi";
 import Api from '../API by name/Api'
 import Nome from '../API by name/Nome'
-import Conteúdo from '../API by name/Conteúdo';
+import ApiC from '../API by name/API by conteúdo/ApiC'
+import Conteúdo from '../API by name/API by conteúdo/Conteúdo'
 function Bifunc(){
     const apis = document.getElementById("APIby")
     apis.style.display="block"
-}
-function Bifunc1(){
-    
 }
 function Perfil(){
     return(
@@ -19,8 +17,10 @@ function Perfil(){
             {/* Caneta */}
             <div className={styles.Apit} id="APIby">
             <Api/>
+            </div>
+            <div className={styles.Penc}>
+            <BiPencil onClick={Bifunc} />    
             </div>      
-             <BiPencil onClick={Bifunc}  className={styles.Penc}/>
             {/* icone do user */}
             <img className={styles.imgi} src={ico} />
             {/* User */}
@@ -28,6 +28,7 @@ function Perfil(){
             <Nome/>
             </div>
             {/* Seguindores */}
+            <div className={styles.ComeP}>
             <h3 className={styles.puse}>
             <span>0 publicações</span>
             <span>36 seguidores</span>
@@ -35,8 +36,9 @@ function Perfil(){
             </h3>
             {/* BIO */}
             <p className={styles.palavr}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, inventore esse reprehenderit dolorum eum id soluta quidem vitae impedit omnis error numquam aliquam nam sed magnam ipsum at. Qui, iste.</p>
-            <Conteúdo/>
-            <BiPencil onClick={Bifunc1}  />
+            {/* Conteúdo */}
+            <ApiC/>
+            </div>
             <hr className={styles.hr} />
             <h2>SALVOS</h2>
             <All/>

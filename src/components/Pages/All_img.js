@@ -36,6 +36,12 @@ function All_img(){
         <img className={styles.imgInst} src={img1}/>
         <img className={styles.imgInst} src={img6}/>
         <img className={styles.imgInst} src={img7}/>
+        <img className={styles.imgInst} src={img9}/>
+        <img className={styles.imgInst} src={img10}/>
+        <img className={styles.imgInst} src={img1}/>
+        <img className={styles.imgInst} src={img7}/>
+        <img className={styles.imgInst} src={img8}/>
+        <img className={styles.imgInst} src={img4}/>
     </div>
     )
 }

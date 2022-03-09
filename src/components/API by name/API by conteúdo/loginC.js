@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { useAuth } from "./auth";
-import styles from './login.module.css'
+import { useAuth } from "./authC";
 const Login = () => {
   const [textarea, setTextarea] = useState({
     name: "",
@@ -16,11 +15,10 @@ const Login = () => {
   return (
     <div>
       <textarea
-      className={styles.textarea}
         type="text"
         placeholder="Escreve seu Username"
         minLength={1}
-        maxLength={15}
+        maxLength={25}
         onChange={(e) => setTextarea({ name: e.target.value })}/>
       <button onClick={handleLogin}>Login</button>
     </div>

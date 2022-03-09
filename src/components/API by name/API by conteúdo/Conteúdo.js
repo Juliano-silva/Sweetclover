@@ -1,11 +1,11 @@
 import React from "react";
-import { useAuth } from "../API by name/auth";
+import { useAuth } from "../API by conteúdo/authC";
 
 const Conteúdo = () => {
-  const { user1 } = useAuth();
+  const { user } = useAuth();
   return (
     <div>
-      <h1>{user1.name}</h1>
+      <h1>{user.name}</h1>
     </div>
   );
 };
