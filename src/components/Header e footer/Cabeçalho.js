@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import {AiFillHome,AiOutlineCompass,AiOutlineHeart } from "react-icons/ai";
 import { MdOutlineMessage } from "react-icons/md";
 import { GrAddCircle } from "react-icons/gr";
+import Coração from '../Pages/coração'
 import Ico from '../img/Pro.jpg'
 function double(){
   const botão = document.getElementById("adicionar")
@@ -32,7 +33,9 @@ function Cabeçalho(){
         <div>
           {/* Add/Coração */}
           <label>
-            <p id='msg' className={styles.BoxC}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis exercitationem, facilis omnis libero pariatur blanditiis officia amet inventore alias aliquid! Excepturi molestias, reiciendis modi cumque deleniti, perferendis dolore at eveniet provident unde mollitia delectus quasi, nulla accusantium ipsa reprehenderit a. Veritatis ratione ex ea sapiente! Nihil aut voluptatem fugit facere eaque dolorum doloremque perferendis ipsam, similique esse accusamus velit quis consequuntur sit eum est assumenda voluptate nemo cupiditate alias! Quam fugit doloribus deserunt delectus atque eligendi porro enim suscipit architecto corporis id deleniti facere aliquid, minus ut illum nihil culpa dolorem ipsum harum! Nobis libero magni veniam. Laboriosam, pariatur officiis.</p>
+            <div id='msg' className={styles.BoxC}>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam accusamus doloribus sequi obcaecati, ea numquam quas autem corrupti inventore beatae nisi architecto voluptatem cum consequatur non sed, porro rem veritatis necessitatibus! Cumque voluptatum qui quaerat praesentium in harum nisi officia hic ab sunt totam sequi eos minima, architecto earum sapiente iste sit, nihil tempora provident quidem soluta incidunt voluptates. Nostrum accusamus laudantium neque illum eos quidem fugit veniam magni molestiae nobis repellat aliquid assumenda placeat doloremque sint, deleniti veritatis labore, animi nam praesentium. Recusandae qui, commodi, officia dolorem autem tenetur neque labore enim quisquam, corporis facere maiores adipisci delectus molestiae!</p>
+            </div>
           </label>
         </div>
       </form>
@@ -44,7 +47,7 @@ function Cabeçalho(){
         <li><Link onClick={double}><GrAddCircle/></Link></li>
         <li><Link to="/Bússola"><AiOutlineCompass/></Link></li>
         <label><input type="checkbox" className={styles.checkME} id="Add" onClick={checkMe}/><li className={styles.heart}><AiOutlineHeart/></li></label>
-        <li><Link to="/Perfil"><img className={styles.ico} src={Ico}/></Link></li>
+        <li className={styles.user}><Link to="/Perfil"><img className={styles.ico}  src={Ico}/></Link></li>
       </ul>
       </div>
       </div>

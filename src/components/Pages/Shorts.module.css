@@ -1,11 +1,31 @@
 .Short{
     border: 1px solid royalblue;
-    width: 18em;
+    width: 16em;
     height: 50em;
     display: inline-block;
-    margin: auto;
     margin-left: 20px;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    border-radius: 20px;
 }
 .Short:hover{
     transform: scale(1.1);
+}
+.CONTAINERS{
+    display: flex;
+}
+.h1S{
+    text-align: center;
+    width: 8.05em;
+    margin: auto;
+    margin-top: -1px;
+    background: gray;
+    margin-left: -1px;
+}
+.ConterS{
+    border: 1px solid red;
+    text-align: center;
+    margin-top: 5px;
 }

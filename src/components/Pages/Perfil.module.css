@@ -14,11 +14,12 @@
     display: none;
     margin-top: 10px;
 }
-.TESTE{
+.API{
+    width: 35em;
     text-align: left;
-    width: 32em;
-    margin-top: -115px;
-    margin-left: 180px;
+    margin: auto;
+    color: royalblue;
+    margin-top: -100px;
 }
 
 /* Seguindores */
@@ -54,14 +55,9 @@ h3 > span{
 }
 .palavr{
     border: 1px solid silver;
-    background: silver;
+    background: black;
+    color: tomato;
     width: 34em;
     margin-left: 32%;
     margin-top: 10px;
-}
-.API{
-    width: 30em;
-    display: block;
-    margin-top: 20px;
-    margin-left: 470px;
 }

@@ -1,12 +1,12 @@
 import React from "react";
 import { useAuth } from "../API by name/auth";
 
-const Nome = () => {
-  const { user } = useAuth();
+const Conteúdo = () => {
+  const { user1 } = useAuth();
   return (
     <div>
-      <h1>{user.name}</h1>
+      <h1>{user1.name}</h1>
     </div>
   );
 };
-export default Nome;
+export default Conteúdo;

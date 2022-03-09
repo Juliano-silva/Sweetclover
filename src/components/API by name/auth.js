@@ -5,6 +5,7 @@ export const AuthContext = React.createContext({});
 export const AuthProvider = (props) => {
   const [user, setUser] = useState({
     name: "",
+    conteúdo:"",
   });
 
   useEffect(() => {
@@ -14,6 +15,7 @@ export const AuthProvider = (props) => {
     } else {
       setUser({
         name: "",
+        conteúdo:"",
       });
     }
   }, []);

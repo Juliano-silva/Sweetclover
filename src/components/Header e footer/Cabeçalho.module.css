@@ -89,3 +89,8 @@ li{
     display: inline-block;
     padding: 0.5em;
 }
+.user{
+    display: flex;
+    margin-top: -62px;
+    margin-left: 310px;
+}
