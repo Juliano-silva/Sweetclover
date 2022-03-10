@@ -1,35 +1,43 @@
 .cima{
-    border: 1px solid gray;
+    border: 3px solid gray;
     width: 51em;
     margin-left: 20%;
-    height: 8em;
+    height: 7em;
     margin-top: -30px;
     display: block;
     margin: auto;
     border-radius: 50px 0 0 50px ;
 }
 .navC{
-    width: 5.5em;
-    height: 5.5em;
+    width: 4em;
+    height: 4em;
     border-radius: 50%;
     background-image: linear-gradient(pink,purple,rgb(173, 0, 29));
-    margin-left: 3em;
+    margin-left: 2.1em;
+    margin-top: 10px;
 }
 .icons{
     border-radius: 50%;
-    width: 2.5em;
-    height: 2.5em;
-    margin-top: -10px;
-    margin-left: -0.3em;
+    width: 1.8em;
+    height: 1.8em;
+    margin-top: -13px;
+    margin-left: -13px;
+    border: 2px solid pink;
+}
+.cimaC{
+    display: flex;
 }
 .cimaLi{
-    width: 1em;
+    width: 3em;
+    text-align: center;
     height: 1em;
-    margin-top: -20px;
-    margin-left: 39px;
+    margin-top: 1px;
+    margin-left: 5px;
     font-size: 1.1em;
     color: ghostwhite;
 }
 .cima > ul > li{
-    padding: 1em;
+    padding: 2em;
+    margin-left: 8px;
+    margin-top: -50px;
 }
