@@ -22,12 +22,16 @@ function Home(){
             <Cima/>
             <div className={styles.Coisas}>
             <Box/>
+            <br />
             <div id='fixed'><Fixed/></div>
             <Box/>
+            <br />
             <Box/>
+            <br />
             <Box/>
+            <br />
             <Box/>
-            <Box/>
+            <br />
             </div>
             </div>
             </div>

@@ -17,26 +17,31 @@ function text(){
 }
 function Box(){
     return(
+      // Parte de cima
         <div className={styles.Caixa}><div>
           <div className={styles.Box}>
-          <img className={styles.ico} src={ico} />
+            <div className={styles.boxCima}>
+            <nav className={styles.navB}><img className={styles.iconB} src={ico} /></nav>        
           <h1>Sambinha</h1>
           <button><BsThreeDots/></button>
-          <img className={styles.ico1} src={Url}/>
+            </div>
+          {/* imagem do react */}
+          <img className={styles.imagemB} src={Url}/>
           </div>
+          {/* Parte de baixo */}
           <div className={styles.boxBaixo}>
             <button><FormControlLabel className={styles.check} control={<Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />}/></button>
             <button onClick={text}>
               <MdOutlineMessage/>
               </button>
-          </div>
           <div className={styles.ParteMB}>
           <h5>Curtido por lorem e outras lorem</h5>
-          <p id='comentário'><Nome/>:
+          <p id='comentário'><Nome/>
           <MovieProvider>
             <AddMovie/>
             </MovieProvider>
             </p>
+            </div>
           </div>
           </div>
       </div>

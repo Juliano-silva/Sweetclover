@@ -4,20 +4,30 @@
     margin: auto;
     display: block;
     margin-left: 30px;
+    margin-top: -10em;
 }
 .form{
     margin-left: -10px;
-    margin-top: 10px;
+    margin-top: 136px;
 }
-
 .props{
-    margin-top: -550px;
-    height: 42em;
+    margin-top: -690px;
+    height: 43em;
     width: 39em;
     overflow: auto;
 }
 .Class{
     display: flex;
     font-size: 12px;
-    width: 51em;
+    width: 50em;
+    border: 2px solid purple;
+    border-radius: 20px;
+}
+.Movie{
+    padding: 0.3em;
+}
+.Class > span{
+    margin-top: 3px;
+    margin-left: 10px;
+    font-size: 20px;
 }

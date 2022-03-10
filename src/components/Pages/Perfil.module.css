@@ -1,6 +1,5 @@
 /* Caneta */
 .Penc{
-    
     cursor: pointer;
     visibility: visible;
     width: 10em;
@@ -12,8 +11,8 @@
 
 /* User */
 .Apit{
-    display: none;
-    margin-top: 10px;
+    display: block;
+    margin-top: 200px;
 }
 .API{
     width: 35em;
@@ -27,6 +26,7 @@
 
 /* BIO */   
 .container{
+    border: 1px solid red;
     text-align: center;
 }
 .hr{
@@ -44,10 +44,10 @@
 .imgi{
     border-radius: 50%;
     margin-right: 50%;
-    margin-top: -5%;
+    margin-top: -0%;
 }
 .puse{
-    margin-right: 4%;
+    margin-right: 60%;
     margin-top: 10px;
 }
 h3 > span{

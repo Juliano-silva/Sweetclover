@@ -25,7 +25,7 @@ function Perfil(){
             <img className={styles.imgi} src={ico} />
             {/* User */}
             <div className={styles.API}>
-            <Nome/>
+            <Nome />
             </div>
             {/* Seguindores */}
             <div className={styles.ComeP}>

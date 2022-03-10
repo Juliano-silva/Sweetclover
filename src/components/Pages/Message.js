@@ -9,28 +9,43 @@ function Message(){
         <div>
             <div className={styles.chat}>
                 <div className={styles.icons}>
+                    <div className={styles.MessaNo}>
                     <Nome/>
+                    </div>
                     <hr />
                     <div className={styles.lado}>
                     <img src={ico} />
                     <h1>Cuacoxo</h1>
+                    <p>online agora</p>
                     </div>
+                    <div className={styles.onli}>
                     <img src={ico} />
-                    <h1 className={styles.Nomes}>Cuacoxo</h1>
+                    <h1>Cuacoxo</h1>
+                    <p>online agora</p>
+                    </div>
+                    <div className={styles.ConteúMess}>
                     <img src={ico} />
                     <h1 className={styles.Nomes}>Cousgal</h1>
+                    <p>online há 1 h</p>
                     <img src={ico} />
                     <h1 className={styles.Nomes}>Wigen</h1>
+                    <p>online há 1 h</p>
                     <img src={ico} />
                     <h1 className={styles.Nomes}>Tardoin</h1>
+                    <p>online há 1 h</p>
                     <img src={ico} />
                     <h1 className={styles.Nomes}>Zigawuy</h1>
+                    <p>online há 1 h</p>
                     <img src={ico} />
                     <h1 className={styles.Nomes}>Yolxis</h1>
+                    <p>online há 1 h</p>
                     <img src={ico} />
                     <h1 className={styles.Nomes}>Zid</h1>
+                    <p>online há 1 h</p>
                     <img src={ico} />
                     <h1 className={styles.Nomes}>Drogir</h1>
+                    <p>online há 1 h</p>
+                    </div>
                 </div>
                 <div className={styles.inputs}>
                 <MovieProvider>

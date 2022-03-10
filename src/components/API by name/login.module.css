@@ -6,3 +6,6 @@
 .textarea::placeholder{
     text-align: center;
 }
+.userName{
+    margin-left: 3px;
+}

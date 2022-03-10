@@ -5,6 +5,7 @@ const AddMovie = () =>{
     const [name,setName] = useState('');
     const [movie,setMovie] = useContext(MovieContext);
     const updateName = (e) => {
+        const Movi = document.getElementById("Movie")
         setName(e.target.value);
     }
     //Isso é o que faz gerar mais mensagem

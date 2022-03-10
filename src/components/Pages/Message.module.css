@@ -17,12 +17,19 @@
 .lado > img{
     width: 2em;
     height: 2em;
-    margin-top: 5px;
+    margin-top: -1px;
     margin-left: 10px;
     border-radius: 20px;
 }
 .lado > h1{
-    font-size: 15px;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+.lado > p{
+    margin-top: 18px;
+    margin-left: -85px;
+    color: yellowgreen;
 }
 .icons{
     border: 1px solid grey;
@@ -36,34 +43,58 @@
 .icons > h1{
     text-align: center;
 }
-.icons > img{
+.ConteúMess > img,.onli > img{
     display: block;
-    padding: 0.8em;
     border-radius: 50%;
+    border: 2px solid plum;
     width: 5em;
     height: 5em;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.ConteúMess > p{
+    width: 6em;
+    margin-left: 105px;
+    margin-top: -25px;
+    font-size: 1.2em;
+    color: red;
+}
+.onli > p{
+    width: 6em;
+    margin-left: 105px;
+    margin-top: -25px;
+    font-size: 1.2em;
+    color:greenyellow;
+}
+.Nomes,.onli > h1{
+    width: 4em;
+    margin: auto;
+    display: block;
+    margin-top: -90px;
+    margin-left: 75px;
+    padding: 28px;
+}
+.lado > img{
+    border: 2px solid plum;
 }
 .icons > hr{
     border: 1px solid gray;
     width: 59.9em;
 }
 .inputs{
+    width: 65.5%;
     border: 1px solid transparent;
-    width: 38em;
-    margin-top: -20%;
     margin-left: 34%;
     border-radius: 20px;
+    margin-top: -60px;
 }
 .inputs > input{
-    border: 1px solid transparent;
     border-radius: 20px;
     width: 45.3em;
     height: 1em;
 }
-.Nomes{
-    width: 4em;
-    margin: auto;
-    display: block;
-    margin-top: -80px;
-    padding: 15px;
+.MessaNo{
+    text-align: center;
+    height: 3em;
+    color: aliceblue;
 }

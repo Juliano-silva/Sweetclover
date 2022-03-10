@@ -4,40 +4,30 @@
     margin: auto;
     display: block;
 }
-
-.Box > .ico{
-    display: block;
-    margin-left: 2%;
-    border: 1px solid red;
-    margin-top: 10px;
-    border-radius: 50%;
-    width: 2.5em;
-    height: 2.5em;
-    animation: pulse infinite 2s;
-}
-.Box > h1{
+.boxCima > h1{
     margin-top: -36px;
-    margin-left: 8%;
+    margin-left: 20%;
     width: 30em;
     font-size: 24px;
 }
-.Box > button{
+.boxCima > button{
     width: 5em;
     display: block;
     background: transparent;
-    border: 1px solid transparent;
+    border: transparent;
     margin-top: -25px;
-    margin-left: 90%;
+    margin-left: 34em;
     font-size: 20px;
 }
-.Box > .ico1{
+.Box > .imagemB{
     width: 100%;
     height: 40em;
-    margin-top: 15px;
+    margin-top: 1px;
 }
 .boxBaixo{
-    margin-top: -2px;
-    width: 50em;
+    border: 1px solid red;
+    margin-top: -5px;
+    width: 100%;
 }
 .boxBaixo > button{
     font-size: 1.4em;
@@ -65,11 +55,31 @@
     margin-top: -10px;
     margin-left: 10px;
 }
+.navB{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    margin-left: 3em;
+    margin-top: 10px;
+    animation: pulse infinite 2s;
+}
+.iconB{
+    border-radius: 50%;
+    width: 2.5em;
+    height: 2.5em;
+    margin-top: 4px;
+    margin-left: 0.3em;
+}
+.boxCima{
+    border: 2px solid red;
+    height: 4em;
+}
 @keyframes pulse {
     0%{
-        background-image: linear-gradient(red,green,blue,yellow);
+        background-image: linear-gradient(pink,purple,rgb(173, 0, 29));
+
     }
     100%{
-        background-image: linear-gradient(rgb(228, 24, 201),rgb(117, 111, 27),rgb(120, 120, 218),rgb(121, 196, 125));
+        background-image: linear-gradient(rgb(243, 149, 165),rgb(170, 34, 170),rgb(209, 81, 81));
     }
 }

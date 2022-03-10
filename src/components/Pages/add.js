@@ -15,7 +15,7 @@ function previewImagem(){
 }
 function add(){
     return(
-        <div className={styles.AddTu}>
+        <div>
             <div className={styles.AddC}>
                 <h1>Header</h1>
                 </div>

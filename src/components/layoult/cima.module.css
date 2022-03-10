@@ -2,20 +2,34 @@
     border: 1px solid gray;
     width: 51em;
     margin-left: 20%;
-    height: 6em;
+    height: 8em;
     margin-top: -30px;
     display: block;
     margin: auto;
     border-radius: 50px 0 0 50px ;
 }
+.navC{
+    width: 5.5em;
+    height: 5.5em;
+    border-radius: 50%;
+    background-image: linear-gradient(pink,purple,rgb(173, 0, 29));
+    margin-left: 3em;
+}
 .icons{
-    border: 1px solid rgb(248, 80, 136);
     border-radius: 50%;
     width: 2.5em;
     height: 2.5em;
-    margin-top: -20px;
-    margin-left: 0.5em;
+    margin-top: -10px;
+    margin-left: -0.3em;
 }
-.cima > li{
+.cimaLi{
+    width: 1em;
+    height: 1em;
+    margin-top: -20px;
+    margin-left: 39px;
+    font-size: 1.1em;
+    color: ghostwhite;
+}
+.cima > ul > li{
     padding: 1em;
 }
