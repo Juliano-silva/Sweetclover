@@ -15,10 +15,13 @@ function previewImagem(){
 }
 function add(){
     return(
-        <div>
+        <div className={styles.AddTu}>
+            <div className={styles.AddC}>
+                <h1>Header</h1>
+                </div>
             <form method='POST' action="" encType='multipart/form-data'>
-                <input type="file" name='imagem' id='imagem' onChange={previewImagem}/>
-                <img id='IMAGE' className={styles.imgns}  />
+            <img id='IMAGE' className={styles.imgns}  />
+                <input className={styles.inputArq} type="file" name='imagem' id='imagem' onChange={previewImagem}/>
             </form>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         </div>

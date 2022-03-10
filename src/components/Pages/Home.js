@@ -15,7 +15,8 @@ function Home(){
     return(
         <div>
              <div id='adicionar' className={styles.Add}>
-                 <Add/><button className={styles.pro} onClick={des}>Click</button>
+             <button className={styles.des} onClick={des}>Click</button>
+                 <Add/>
             </div>
             <div id='corpo'>
             <Cima/>

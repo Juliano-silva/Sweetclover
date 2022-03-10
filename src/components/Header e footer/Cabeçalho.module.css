@@ -1,20 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
 .Header{
     background:#021418;
-    border: 1px solid gray;
-    border-top: transparent;
-    border-left: transparent;
-    border-right: transparent;
-    display: block;
+    position: fixed;
+    margin-left: 1em;
     font-family: 'Roboto', sans-serif;
     font-size: 3em;
 }
 .Container{
-    border: 1px solid blue;
     height: 3.8em;
     width: 100%;
     margin: auto;
     display: block;
+    margin-top: -5.6em;
+    background: #021418;
+    position: fixed;
 }
 form{
     border: 1px solid transparent;
@@ -30,14 +29,17 @@ input{
     margin: auto;
     display: block;
     margin: auto;
+    margin-top: 5px;
+    margin-left: -7em;
     background: #021418;
-    border: 1px solid rebeccapurple;
+    border: 2px solid rebeccapurple;
+    border-radius: 0px 20px 0px 20px;
 }
 input::placeholder{
     color: white;
+    text-align: center;
 }
 .ico{
-    border: 1px solid transparent;
     width: 1em;
     height: 1em;
     border-radius: 50%;
@@ -45,12 +47,12 @@ input::placeholder{
 .Add{
     display: inline-block;
     position: fixed;
-    margin-left: 23.9%;
     border: 1px solid teal;
     background: red;
     color: brown;
     width: 50em;
     height: 20em;
+    margin-left: 23.9%;
     margin-top: 100px;
 }
 .BoxC{
@@ -73,7 +75,8 @@ label > input[type="checkbox"]{
 .icone1 > ul{
     width: 30em;
     height: 36em;
-    margin-left: 70em;
+    margin-left: 55em;
+    margin-top: 5px;
     position: fixed;
     display: block;
 }
@@ -90,4 +93,9 @@ li{
     display: flex;
     margin-top: -62px;
     margin-left: 310px;
+}
+.HeaderC{
+    margin: auto ; 
+    display: block;
+    width: 80em;
 }

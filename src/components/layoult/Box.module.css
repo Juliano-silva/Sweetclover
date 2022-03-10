@@ -1,7 +1,8 @@
 .Caixa{
     border: 1px solid gray;
-    width: 50em;
-    margin-left: 20%;
+    width: 52em;
+    margin: auto;
+    display: block;
 }
 
 .Box > .ico{

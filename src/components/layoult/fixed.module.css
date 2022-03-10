@@ -2,9 +2,10 @@
 .fixed{
     width: 18em;
     height: 36em;
-    margin-left: 76em;
-    margin-top: -57em;
     display: block;
+    margin: auto;
+    margin-left: 80%;
+    margin-top: -54em;
     position: fixed;
 }
 .imgB{
@@ -66,7 +67,7 @@ h6{
     display: block;
     border: 1px solid transparent;
     color: blue;
-    background: white;
+    background: transparent;
     margin-left: 78px;
     width: 4.5em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -78,10 +79,10 @@ h6{
 .seg{
     display: none;
     border: 1px solid transparent;
+    background: transparent;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: brown;
     width: 4.5em;
-    background: white;
     margin-left: 78px;
     margin-top: -20px;
 }

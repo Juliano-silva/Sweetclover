@@ -26,7 +26,8 @@ function double(){
 function Cabeçalho(){
     return(
       <div id='COntainer' className={styles.Container}>
-      <h1  className={styles.Header}>SweetClover</h1>
+        <div className={styles.HeaderC}>
+        <h1  className={styles.Header}>SweetClover</h1>
       {/* Colocar uma lupa antes do placeholder */}
       <form id="form" action="#" method="post">
         <input type="text" name="seach" id="seach" placeholder="Faça sua busca" required/>
@@ -51,6 +52,7 @@ function Cabeçalho(){
       </ul>
       </div>
       </div>
+        </div>
     )
   }
   export default Cabeçalho
