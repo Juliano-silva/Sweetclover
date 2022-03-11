@@ -1,10 +1,44 @@
+/* Header */
+/* Box da imagem */
+/* input uploand */
+.AddC{
+    border: 1px solid saddlebrown;
+    text-align: center;
+    background: saddlebrown;
+    margin-top: 52px;
+}
 .file{
-    border: 1px solid red;
     width: 50em;
-    margin-top: 10px;
     height: 40em;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
 }
 .imgns{
-    width: 150px;
-    height: 150px;
+    width: 45.9em;
+    height: 33.4em;
+    margin: auto;
+    display: block;
+}
+.inputArq{
+    border: 2px solid red;
+    border-bottom: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-radius: 0px;
+    width: 55.1em;
+    margin: auto;
+    display: block;
+    margin-left: -0.1em;
+}
+@media (min-width: 1300px) and (max-width:1900px){
+    .AddC{
+        margin-top: 12px;
+    }
+    .imgns{
+        height: 30em;
+    }
+    .inputArq{
+        margin-left: -0.1em;
+    }
 }

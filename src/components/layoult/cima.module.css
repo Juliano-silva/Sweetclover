@@ -1,18 +1,52 @@
 .cima{
-    border: 1px solid gray;
-    width: 50em;
+    border: 3px solid gray;
+    width: 51em;
     margin-left: 20%;
-    height: 6em;
-    margin-top: 100px;
+    height: 7em;
+    margin-top: -30px;
+    display: block;
+    margin: auto;
+    border-radius: 50px 0 0 50px ;
+}
+.navC{
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    animation: pulse infinite 2s;
+    margin-left: 2.1em;
+    margin-top: 10px;
 }
 .icons{
-    border: 1px solid rgb(248, 80, 136);
     border-radius: 50%;
-    width: 2.5em;
-    height: 2.5em;
-    margin-top: -20px;
-    margin-left: 0.5em;
+    width: 1.8em;
+    height: 1.8em;
+    margin-top: -13px;
+    margin-left: -13px;
+    border: 2px solid pink;
 }
-.cima > li{
-    padding: 1em;
+.cimaC{
+    display: flex;
+}
+.cimaLi{
+    width: 3em;
+    text-align: center;
+    height: 1em;
+    margin-top: 1px;
+    margin-left: 5px;
+    font-size: 1.1em;
+    color: ghostwhite;
+}
+.cima > ul > li{
+    padding: 2em;
+    margin-left: 8px;
+    margin-top: -50px;
+}
+@keyframes pulse {
+    0%{
+        background-image: linear-gradient(pink,purple,rgb(173, 0, 29));
+
+    }
+    100%{
+        background-image: linear-gradient(rgb(243, 149, 165),rgb(170, 34, 170),rgb(209, 81, 81));
+    }
 }

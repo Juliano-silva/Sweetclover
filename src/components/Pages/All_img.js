@@ -11,6 +11,7 @@ import img10 from '../img/10.jpg'
 import styles from './All_img.module.css'
 function All_img(){
     return(
+        // Aqui está as imagem do Perfil 
         <div className={styles.BoxInst}>
         <img className={styles.imgInst} src={img1}/>
         <img className={styles.imgInst} src={img2}/>

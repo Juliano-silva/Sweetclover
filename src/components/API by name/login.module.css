@@ -1,8 +1,30 @@
 .textarea{
-    border: 1px solid olive;
+    border: 1px solid indigo;
+    background: indigo;
     resize:  none;
     width: 20em;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 20em;
+    color: white;
 }
 .textarea::placeholder{
     text-align: center;
+    color: white;
+}
+
+.loginarea{
+    border: 1px solid black;
+    background: gray;
+    color: white;
+    margin-left: 20em;
+    height: 2.4em;
+    width: 20.2em;
+    margin-top: 92px;
+    position: absolute;
+}
+@media (min-width: 1300px) and (max-width:1800px) {
+    .textarea,.loginarea{
+        margin-left: 25em;
+    }
 }

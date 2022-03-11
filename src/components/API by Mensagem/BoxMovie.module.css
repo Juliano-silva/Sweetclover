@@ -1,0 +1,9 @@
+.props{
+    position: absolute;
+    border: 1px solid gray;
+    height: 10em;
+    overflow: auto;
+    width: 52em;
+    margin-left: -1px;
+    margin-top: 5px;
+}

@@ -4,20 +4,36 @@
 .mouse{
     border: 1px solid transparent;
 }
-.pro{
-    margin: auto;
-    display: block;
-    margin-top: 400px;
-
-    font-size: 2em;
-}
 .Add{
     display: none;
-    margin-left: 28.5%;
     border: 1px solid teal;
     background: rgb(102, 101, 101);
     color: white;
     width: 46em;
     height: 39em;
+    margin: auto;
+    margin-left: 31%;
     margin-top: 20px;
+}
+.des{
+    margin: auto;
+    display: block;
+    margin-top: -100px;
+    margin-left: 38em;
+    font-size: 2em;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    border: 2px solid rebeccapurple;
+    cursor: pointer;
+}
+@media (min-width: 1300px) and (max-width:1900px){
+    .des{
+        margin-left: 120%;
+        margin-top: -60px;
+    }
+    .Add{
+        margin-top: -20px;
+        height: 35em;
+    }
 }

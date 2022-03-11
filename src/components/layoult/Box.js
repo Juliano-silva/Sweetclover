@@ -8,35 +8,47 @@ import ico from '../icones/perfil.png'
 import {BsThreeDots} from "react-icons/bs"; 
 import { MdOutlineMessage } from "react-icons/md";
 import Url from '../img/React js.jpg'
-import Nome from '../API by name/Nome'
-import MovieList from '../API by Mensagem/MovieList';
+import MovieList from '../API by Mensagem/MovieList'
 import { MovieProvider } from '../API by Mensagem/MovieContext';
 import AddMovie from '../API by Mensagem/AddMovie'
-function text(){
-  const comen = document.getElementById("comentário")
+function MdOutlin1e(){
+  const pro = document.getElementById("props")
+  const corpo1 = document.querySelector("body")
+  pro.style.display="none"
+  corpo1.style.display="none"
 }
 function Box(){
     return(
+      // Parte de cima
         <div className={styles.Caixa}><div>
           <div className={styles.Box}>
-          <img className={styles.ico} src={ico} />
+            <div className={styles.boxCima}>
+            <nav className={styles.navB}><img className={styles.iconB} src={ico} /></nav>        
           <h1>Sambinha</h1>
           <button><BsThreeDots/></button>
-          <img className={styles.ico1} src={Url}/>
+            </div>
+          {/* imagem do react */}
+          <img className={styles.imagemB} src={Url}/>
           </div>
+          {/* Parte de baixo */}
           <div className={styles.boxBaixo}>
             <button><FormControlLabel className={styles.check} control={<Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />}/></button>
-            <button onClick={text}>
-              <MdOutlineMessage/>
+            <button>
+              <MdOutlineMessage className={styles.MdOut} onClick={MdOutlin1e}/>
               </button>
-          </div>
           <div className={styles.ParteMB}>
-          <h5>Curtido por lorem e outras lorem</h5>
-          <p id='comentário'><Nome/>:
+          <h5>Curtido por <span>Cuacoxo</span> e outras 100 pessoas </h5>
+          <div>
+          <div className={styles.comentáriosB}>
           <MovieProvider>
+            <MovieList/>
+            <div className={styles.AddMoviese}>
             <AddMovie/>
-            </MovieProvider>
-            </p>
+            </div>
+          </MovieProvider>
+          </div>
+          </div>
+            </div>
           </div>
           </div>
       </div>

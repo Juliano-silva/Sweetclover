@@ -2,14 +2,21 @@
 .fixed{
     width: 18em;
     height: 36em;
-    margin-left: 76em;
-    margin-top: -57em;
-    display: block;
+    margin-left: 90em;
+    margin-top: -65em;
     position: fixed;
+}
+.fixed > p{
+    color: gray;
+    font-size: 1.1em;
+    width: 22em;
+    opacity: 0.4;
+    margin-top: 10px;
+    margin-left: 84px;
 }
 .imgB{
     display: block;
-    border: 1px solid purple;
+    border: 2px solid navy;
     width: 5em;
     border-radius: 50%;
     margin-top: 1px;
@@ -19,7 +26,7 @@
     width: 5.5em;
     font-size: 0.9em;
     margin-left: 5.8em;
-    margin-top: -4em;
+    margin-top: -5em;
     width: 69%;
     height: 2em;
     text-align: left;
@@ -46,7 +53,7 @@
 }
 h6{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 10px;
     font-size: 20px;
 }
 .baixo{
@@ -66,7 +73,7 @@ h6{
     display: block;
     border: 1px solid transparent;
     color: blue;
-    background: white;
+    background: transparent;
     margin-left: 78px;
     width: 4.5em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -78,13 +85,19 @@ h6{
 .seg{
     display: none;
     border: 1px solid transparent;
+    background: transparent;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: brown;
     width: 4.5em;
-    background: white;
     margin-left: 78px;
     margin-top: -20px;
 }
 .seg:hover{
     color: red;
+}
+@media (min-width: 1300px) and (max-width:1800px) {
+    .fixed{
+        margin-left: 82%;
+        margin-top: -72em;
+    }
 }

@@ -1,19 +1,21 @@
-/* Caneta */
+/* Caneta e Input */
 .Penc{
-    
     cursor: pointer;
     visibility: visible;
-    width: 10em;
+    width: 1em;
     font-size: 1.5em;
     display: block;
     margin: auto;
+    position: absolute;
+    margin-top: 2.5em;
+    margin-left: 62%;
 }
+
 /*  icone do user  */
 
 /* User */
 .Apit{
     display: none;
-    margin-top: 10px;
 }
 .API{
     width: 35em;
@@ -44,26 +46,42 @@
 .imgi{
     border-radius: 50%;
     margin-right: 50%;
-    margin-top: -5%;
+    margin-top: -0%;
 }
 .puse{
-    margin-right: 4%;
-    margin-top: 10px;
+    margin-left: 8%;
+    width: 40em;
 }
 h3 > span{
     padding: 1em;
     font-size: 1.3em;
 }
 .palavr{
-    border: 1px solid silver;
+    border: 1px solid black;
     background: black;
-    color: tomato;
+    color: lightyellow;
     width: 34em;
-    margin-left: 32%;
+    margin-left: 21%;
     margin-top: 10px;
 }
 .ComeP{
     width: 60em;
     display: block;
     margin: auto;
+}
+@media (min-width: 1300px) and (max-width:1800px) {
+    .Penc{
+        margin-left: 70%;
+    }
+    .API{
+       margin-left: 28em;
+       margin-top: -100px;
+    }
+    .palavr{
+        margin-left: 15em;
+    }
+    .puse{
+        margin-left: 13%;
+        width: 40em;
+    }
 }

@@ -1,22 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
 .Header{
     background:#021418;
-    border: 1px solid gray;
-    border-top: transparent;
-    border-left: transparent;
-    border-right: transparent;
-    display: block;
+    position: fixed;
+    margin-left: 1em;
     font-family: 'Roboto', sans-serif;
     font-size: 3em;
 }
 .Container{
-    border: 1px solid blue;
     height: 3.8em;
     width: 100%;
     margin: auto;
     display: block;
+    margin-top: -5.6em;
+    background: #021418;
+    position: fixed;
 }
-form{
+.FormCa{
     border: 1px solid transparent;
     width: 15em;
     height: 36em;
@@ -24,20 +23,24 @@ form{
     position: fixed;
     display: block;
 }
-input{
+.FormCa > input{
     width: 30em;
     height: 45px;
     margin: auto;
     display: block;
     margin: auto;
+    margin-top: 5px;
+    margin-left: -7em;
     background: #021418;
-    border: 1px solid rebeccapurple;
-}
-input::placeholder{
     color: white;
+    border: 2px solid rebeccapurple;
+    border-radius: 0px 20px 0px 20px;
+}
+.FormCa > input::placeholder{
+    color: white;
+    text-align: center;
 }
 .ico{
-    border: 1px solid transparent;
     width: 1em;
     height: 1em;
     border-radius: 50%;
@@ -45,23 +48,13 @@ input::placeholder{
 .Add{
     display: inline-block;
     position: fixed;
-    margin-left: 23.9%;
     border: 1px solid teal;
     background: red;
     color: brown;
     width: 50em;
     height: 20em;
+    margin-left: 23.9%;
     margin-top: 100px;
-}
-.BoxC{
-    display: none;
-    overflow: auto;
-    border: 1px solid rgb(146, 146, 146);
-    background: rgb(146, 146, 146);
-    width: 25em;
-    height: 8em;
-    margin-top: 58px;
-    margin-left: 40em;
 }
 .heart{
     cursor: pointer;
@@ -73,7 +66,8 @@ label > input[type="checkbox"]{
 .icone1 > ul{
     width: 30em;
     height: 36em;
-    margin-left: 70em;
+    margin-left: 55em;
+    margin-top: 5px;
     position: fixed;
     display: block;
 }
@@ -90,4 +84,9 @@ li{
     display: flex;
     margin-top: -62px;
     margin-left: 310px;
+}
+.HeaderC{
+    margin: auto ; 
+    display: block;
+    width: 80em;
 }

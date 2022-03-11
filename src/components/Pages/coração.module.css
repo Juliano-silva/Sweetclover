@@ -1,0 +1,50 @@
+/* Tudo do coração */
+.BoxC{
+    color: black;
+    display: none;
+    overflow: auto;
+    border: 1px solid red;
+    background: slategrey;
+    width: 25em;
+    height: 8em;
+    margin-top: 3px;
+    margin-left: 30%;
+}
+/* Título */
+.BoxC > h2:nth-child(1){
+    margin-top: -1px;
+}
+.BoxC > h2{
+    border: 1px solid slateblue;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    text-align: left;
+    margin-top: 10px;
+}
+/* Sub-título */
+.PalaCo > h1{
+    font-size: 1.3em;
+    width: 16em;
+    margin-left: 2.1em;
+    margin-top: -1.7em;
+}
+/* Span */
+.PalaCo > h1 > span{
+    color: aqua;
+    font-size: 0.6em;
+}
+/* Icone */
+.Perfico{
+    border: 1px solid transparent;
+    width: 2em;
+    height: 2em;
+    border-radius: 20px;
+    display: block;
+    padding: 0.3em;
+}
+@media (min-width: 1300px) and (max-width:1800px){
+    .BoxC{
+        margin-left: 170px;
+    }
+}

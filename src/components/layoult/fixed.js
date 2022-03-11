@@ -2,12 +2,14 @@ import styles from './fixed.module.css'
 import url from '../img/Pro.jpg'
 import ico from '../icones/perfil.png'
 import Nome from '../API by name/Nome'
+// Botão de seguir
 function Seguir(){
     const seg = document.getElementById("seguindo")
     const uir = document.getElementById("seguir")
     seg.style.display="block"
     uir.style.display="none"
 }
+// Botão de seguindo
 function Seguindo(){
     const seg = document.getElementById("seguindo")
     const uir = document.getElementById("seguir")
@@ -16,9 +18,10 @@ function Seguindo(){
 }
 function fixed(){
     return(
-        <div className={styles.fixed}>
+        <div id='fixed' className={styles.fixed}>
             <img src={url} className={styles.imgB}/>
             <h1 className={styles.h1}><Nome/></h1>
+            <p>JULIANO</p>            
             <h6>Sugestões para você</h6>
             <div className={styles.tudo}>
             <div className={styles.icoB}>
