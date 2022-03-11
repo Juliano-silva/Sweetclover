@@ -8,11 +8,14 @@ function Message(){
     return(
         <div>
             <div className={styles.chat}>
+                {/* Linha */}
                 <div className={styles.icons}>
+                    {/* Name */}
                     <div className={styles.MessaNo}>
                     <Nome/>
                     </div>
                     <hr />
+                    {/* Linha do lado */}
                     <div className={styles.lado}>
                     <img src={ico} />
                     <h1>Cuacoxo</h1>

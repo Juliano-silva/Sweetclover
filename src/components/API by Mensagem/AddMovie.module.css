@@ -3,19 +3,16 @@
     width: 44em;
     margin: auto;
     display: block;
+    padding: 0.3em;
 }
-.form{
-    position: absolute;
-    margin: auto;
-    display: block;
-    margin-left: 125px;
-    margin-top: 140px;
+.Movie{
+    padding: 0.2em;
 }
 .Class{
+    border: 2px solid rebeccapurple;
+    border-radius: 20px;
     display: flex;
     font-size: 12px;
-    width: 68em;
-    border: 2px solid purple;
 }
 
 .Class > span{

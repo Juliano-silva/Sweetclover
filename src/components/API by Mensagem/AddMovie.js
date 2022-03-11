@@ -1,7 +1,8 @@
 import React,{useState,useContext} from 'react';
 import { MovieContext } from './MovieContext';
 import styles from './AddMovie.module.css'
-const AddMovie = () =>{
+const 
+AddMovie = () =>{
     const [name,setName] = useState('');
     const [movie,setMovie] = useContext(MovieContext);
     const updateName = (e) => {
@@ -15,7 +16,9 @@ const AddMovie = () =>{
     }
     return(
         <form onSubmit={addMovie} className={styles.form}>
+            <div className={styles.ContAdd}>
             <input className={styles.name} type="text" name="name" value={name} onChange={updateName} />
+            </div>
         </form>
     )
 }

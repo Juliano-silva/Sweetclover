@@ -19,6 +19,7 @@ function fixed(){
         <div className={styles.fixed}>
             <img src={url} className={styles.imgB}/>
             <h1 className={styles.h1}><Nome/></h1>
+            <p>JULIANO</p>            
             <h6>Sugestões para você</h6>
             <div className={styles.tudo}>
             <div className={styles.icoB}>

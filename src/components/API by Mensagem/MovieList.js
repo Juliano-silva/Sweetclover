@@ -1,7 +1,7 @@
 import React,{useState,useContext} from 'react'
 import Movie from './Movie';
 import { MovieContext } from './MovieContext';
-import styles from './AddMovie.module.css'
+import styles from './BoxMovie.module.css'
 const MovieList = () => {
     const [movies,setMovies]= useContext(MovieContext)
         return(

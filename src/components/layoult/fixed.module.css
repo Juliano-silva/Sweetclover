@@ -5,12 +5,20 @@
     display: block;
     margin: auto;
     margin-left: 80%;
-    margin-top: -54em;
+    margin-top: -70em;
     position: fixed;
+}
+.fixed > p{
+    color: gray;
+    font-size: 1.1em;
+    width: 22em;
+    opacity: 0.4;
+    margin-top: 10px;
+    margin-left: 84px;
 }
 .imgB{
     display: block;
-    border: 1px solid purple;
+    border: 2px solid navy;
     width: 5em;
     border-radius: 50%;
     margin-top: 1px;
@@ -20,7 +28,7 @@
     width: 5.5em;
     font-size: 0.9em;
     margin-left: 5.8em;
-    margin-top: -4em;
+    margin-top: -5em;
     width: 69%;
     height: 2em;
     text-align: left;
@@ -47,7 +55,7 @@
 }
 h6{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 10px;
     font-size: 20px;
 }
 .baixo{

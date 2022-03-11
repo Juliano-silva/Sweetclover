@@ -12,7 +12,7 @@
     width: 4em;
     height: 4em;
     border-radius: 50%;
-    background-image: linear-gradient(pink,purple,rgb(173, 0, 29));
+    animation: pulse infinite 2s;
     margin-left: 2.1em;
     margin-top: 10px;
 }
@@ -40,4 +40,13 @@
     padding: 2em;
     margin-left: 8px;
     margin-top: -50px;
+}
+@keyframes pulse {
+    0%{
+        background-image: linear-gradient(pink,purple,rgb(173, 0, 29));
+
+    }
+    100%{
+        background-image: linear-gradient(rgb(243, 149, 165),rgb(170, 34, 170),rgb(209, 81, 81));
+    }
 }

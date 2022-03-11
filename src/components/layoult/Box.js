@@ -11,6 +11,12 @@ import Url from '../img/React js.jpg'
 import MovieList from '../API by Mensagem/MovieList'
 import { MovieProvider } from '../API by Mensagem/MovieContext';
 import AddMovie from '../API by Mensagem/AddMovie'
+function MdOutlin1e(){
+  const pro = document.getElementById("props")
+  const corpo1 = document.querySelector("body")
+  pro.style.display="none"
+  corpo1.style.display="none"
+}
 function Box(){
     return(
       // Parte de cima
@@ -28,15 +34,17 @@ function Box(){
           <div className={styles.boxBaixo}>
             <button><FormControlLabel className={styles.check} control={<Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />}/></button>
             <button>
-              <MdOutlineMessage/>
+              <MdOutlineMessage className={styles.MdOut} onClick={MdOutlin1e}/>
               </button>
           <div className={styles.ParteMB}>
-          <h5>Curtido por Cuacoxo e outras 100 pessoas </h5>
+          <h5>Curtido por <span>Cuacoxo</span> e outras 100 pessoas </h5>
           <div>
           <div className={styles.comentáriosB}>
           <MovieProvider>
             <MovieList/>
+            <div className={styles.AddMoviese}>
             <AddMovie/>
+            </div>
           </MovieProvider>
           </div>
           </div>

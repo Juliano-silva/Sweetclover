@@ -14,7 +14,7 @@ const Login = () => {
     apis.style.display="none"
   };
   return (
-    <div>
+    <div className={styles}>
       <textarea
       className={styles.textarea}
         type="text"
@@ -22,7 +22,7 @@ const Login = () => {
         minLength={1}
         maxLength={15}
         onChange={(e) => setTextarea({ name: e.target.value })}/>
-      <button onClick={handleLogin}>Login</button>
+      <button className={styles.loginarea} onClick={handleLogin}>Inserir nome</button>
     </div>
   );
 };

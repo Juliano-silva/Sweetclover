@@ -5,8 +5,6 @@ import React from "react";
 import {BiPencil} from "react-icons/bi";
 import Api from '../API by name/Api'
 import Nome from '../API by name/Nome'
-import ApiC from '../API by name/API by conteúdo/ApiC'
-import Conteúdo from '../API by name/API by conteúdo/Conteúdo'
 function Bifunc(){
     const apis = document.getElementById("APIby")
     apis.style.display="block"
@@ -14,13 +12,14 @@ function Bifunc(){
 function Perfil(){
     return(
         <div className={styles.container}>
-            {/* Caneta */}
+            {/* Aqui até */}
+            {/* Caneta e Input */}
             <div className={styles.Apit} id="APIby">
             <Api/>
             </div>
-            <div className={styles.Penc}>
-            <BiPencil onClick={Bifunc} />    
-            </div>      
+            <div className={styles.Penc}  onClick={Bifunc}>
+            <BiPencil />
+            </div>
             {/* icone do user */}
             <img className={styles.imgi} src={ico} />
             {/* User */}
@@ -35,10 +34,11 @@ function Perfil(){
             <span>56 seguindo</span>
             </h3>
             {/* BIO */}
-            <p className={styles.palavr}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, inventore esse reprehenderit dolorum eum id soluta quidem vitae impedit omnis error numquam aliquam nam sed magnam ipsum at. Qui, iste.</p>
-            {/* Conteúdo */}
-            <ApiC/>
+            <p className={styles.palavr}>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere odit corrupti nisi illo magni quod officia quidem earum error commodi id natus sed provident, odio animi fugit perferendis debitis doloribus.</p>
+            </p>
             </div>
+            {/* Aqui */}
             <hr className={styles.hr} />
             <h2>SALVOS</h2>
             <All/>

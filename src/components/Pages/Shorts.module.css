@@ -51,9 +51,11 @@ html{
 /* Input final */
 .textS{
     background: white;
-    width: 20em;
+    width: 24em;
     border-radius: 20px;
-    margin-top: 10px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
 }
 .textCont{
     border: 2px solid pink;

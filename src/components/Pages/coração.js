@@ -6,8 +6,11 @@ function clock(){
 function coração(){
     return(
         <div id='msg' className={style.BoxC}>
+            {/* Título */}
             <h2>HOJE</h2>
+            {/* icone */}
             <img className={style.Perfico} src={Perfil} />
+            {/* sub-título e span */}
             <div className={style.PalaCo}><h1>Wigen <span>Começou a seguir você. 10h</span></h1></div>
             <h2>ESTE MêS</h2>
             <img className={style.Perfico} src={Perfil} />

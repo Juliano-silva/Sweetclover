@@ -7,7 +7,7 @@
 }
 .boxCima > h1{
     margin-top: -36px;
-    margin-left: 20%;
+    margin-left: 10%;
     width: 30em;
     font-size: 24px;
 }
@@ -23,12 +23,11 @@
 .Box > .imagemB{
     width: 100%;
     height: 40em;
-    margin-top: 1px;
+    margin-top: -10px;
 }
 .boxBaixo{
-    border: 1px solid red;
     margin-top: -5px;
-    width: 100%;
+    widt: 100%;
 }
 .boxBaixo > button{
     font-size: 1.4em;
@@ -60,7 +59,7 @@
     width: 3em;
     height: 3em;
     border-radius: 50%;
-    margin-left: 3em;
+    margin-left: 1.5em;
     margin-top: 10px;
     animation: pulse infinite 2s;
 }
@@ -72,20 +71,29 @@
     margin-left: 0.3em;
 }
 .boxCima{
-    border: 2px solid red;
     height: 4em;
 }
-.comentáriosB{
-    border: 1px solid red;
-    height: 10em;
-    overflow: auto;
+.AddMoviese{
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 110px;
+}
+.MdOut{
+    margin-top: -21px;
+    position: absolute;
+}
+.AddMoviese > form >  div > input{
+    margin-top: -5px;
+    border: 2px solid transparent;
+}
+.ParteMB > h5{
+    font-size: 1.2em;
+}
+.ParteMB > h5 > span{
+    color: goldenrod;
 }
 .AddMovieBOx{
     border: 5px solid rgb(173, 0, 29);
-}
-input{
-    border: 1px solid red;
-    margin-top: 100px;
 }
 @keyframes pulse {
     0%{
