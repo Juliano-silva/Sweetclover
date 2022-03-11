@@ -1,3 +1,4 @@
+/* Tudo do Shorts */
 .Short{
     height: 50em;
     display: inline-block;
@@ -9,52 +10,55 @@
     border-radius: 20px;
     width: 18%;
 }
-html{
-    overflow-x: hidden;
-}
 .Short:hover{
     transform: scale(1.1);
 }
-.CONTAINERS{
-    display: flex;
+html{
+    overflow-x: hidden;
 }
+/* Parte de cima */
+.CimaSh{
+    width: 100%;
+    height: 4em;
+    background: gray;
+    border-radius: 20px 20px 0px 0px;
+}
+/* icone */
+.iconSh{
+    border-radius: 50%;
+    width: 3em;
+    margin-left: 1em;
+    margin-top: 10px;
+    border: 2px solid pink;
+}
+/* Nome */
 .h1S{
     margin-top: -48px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     color: aqua;
     text-shadow: 0 0 10px aqua;
     text-decoration: dotted;
+    margin-left: 20px;
 }
+/* Imagem de fundo */
+.ConterS{
+    text-align: center;
+    width: 100%;
+    height: 43.6em;
+}
+/* Input final */
 .textS{
     background: white;
     width: 20em;
     border-radius: 20px;
     margin-top: 10px;
 }
-.ConterS{
-    text-align: center;
-    width: 100%;
-    height: 43.6em;
-}
 .textCont{
-    border: 1px solid red;
+    border: 2px solid pink;
     margin-top: -4px;
     height: 4em;
     background: gray;
     border-radius: 0px 0px 20px 20px ;   
-}
-.iconSh{
-    border-radius: 50%;
-    width: 3em;
-    margin-left: 1em;
-    margin-top: 10px;
-    border: 1px solid red;
-}
-.CimaSh{
-    width: 100%;
-    height: 4em;
-    background: gray;
-    border-radius: 20px 20px 0px 0px;
 }

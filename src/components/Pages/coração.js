@@ -1,13 +1,26 @@
 import style from './coração.module.css'
+import Perfil from '../icones/perfil.png'
+function clock(){
+    
+}
 function coração(){
     return(
         <div id='msg' className={style.BoxC}>
             <h2>HOJE</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda magni aliquam neque corrupti voluptatem accusantium natus impedit porro, placeat deserunt molestiae tempore excepturi vitae. Fugiat qui aperiam non excepturi numquam.</p>
-            <h2>Este mês</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam esse odit eius maiores quidem voluptatem itaque iste deleniti in enim maxime, facilis vel quas excepturi ea blanditiis nobis tenetur laudantium.</p>
-            <h2>Anterior</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium facere doloribus temporibus fugit adipisci obcaecati repellat numquam aspernatur recusandae ipsam molestiae, illum et quas nobis eos ipsum quis quae doloremque voluptatum voluptatem inventore suscipit! Commodi eius ea aspernatur vero, fugit quisquam nemo magnam hic excepturi iste ut, expedita sit voluptatem at, sint rerum corrupti tempora rem labore quos assumenda ratione optio culpa! Nulla facere dolorem ad ullam obcaecati eveniet amet nemo saepe placeat sed, voluptate alias, vero minima mollitia veniam exercitationem aliquid, ipsa dolorum? Sed eius incidunt aut aperiam officiis repellat repudiandae nemo voluptatum nesciunt dolorum, necessitatibus culpa illum est.</p>
+            <img className={style.Perfico} src={Perfil} />
+            <div className={style.PalaCo}><h1>Wigen <span>Começou a seguir você. 10h</span></h1></div>
+            <h2>ESTE MêS</h2>
+            <img className={style.Perfico} src={Perfil} />
+            <div className={style.PalaCo}><h1>Tardoin <span>Começou a seguir você. 5 sem</span></h1></div>
+            <img className={style.Perfico} src={Perfil} />
+            <div className={style.PalaCo}><h1>Yolxis <span>Começou a seguir você. 4 sem</span></h1></div>
+            <h2>ANTERIOR</h2>
+            <img className={style.Perfico} src={Perfil} />
+            <div className={style.PalaCo}><h1>Cuacoxo <span>Começou a seguir você. 1 ano</span></h1></div>
+            <img className={style.Perfico} src={Perfil} />
+            <div className={style.PalaCo}><h1>Zigawuy <span>Começou a seguir você. 1 ano</span></h1></div>
+            <img className={style.Perfico} src={Perfil} />
+            <div className={style.PalaCo}><h1>Cousgal <span>Começou a seguir você. 1 mês</span></h1></div>
         </div>
     )
 }

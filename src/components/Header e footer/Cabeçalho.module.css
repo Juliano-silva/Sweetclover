@@ -15,7 +15,7 @@
     background: #021418;
     position: fixed;
 }
-form{
+.FormCa{
     border: 1px solid transparent;
     width: 15em;
     height: 36em;
@@ -23,7 +23,7 @@ form{
     position: fixed;
     display: block;
 }
-input{
+.FormCa > input{
     width: 30em;
     height: 45px;
     margin: auto;
@@ -36,7 +36,7 @@ input{
     border: 2px solid rebeccapurple;
     border-radius: 0px 20px 0px 20px;
 }
-input::placeholder{
+.FormCa > input::placeholder{
     color: white;
     text-align: center;
 }
@@ -55,16 +55,6 @@ input::placeholder{
     height: 20em;
     margin-left: 23.9%;
     margin-top: 100px;
-}
-.BoxC{
-    display: none;
-    overflow: auto;
-    border: 1px solid rgb(146, 146, 146);
-    background: rgb(146, 146, 146);
-    width: 25em;
-    height: 8em;
-    margin-top: 58px;
-    margin-left: 40em;
 }
 .heart{
     cursor: pointer;

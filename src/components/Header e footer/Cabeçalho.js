@@ -18,7 +18,6 @@ function double(){
     if(cb.checked==true){
         text.style.display="block";
         text.style.position="fixed";
-        text.style.border="1px solid red";  
     }else{
         text.style.display="none";
     }
@@ -29,14 +28,12 @@ function Cabeçalho(){
         <div className={styles.HeaderC}>
         <h1  className={styles.Header}>SweetClover</h1>
       {/* Colocar uma lupa antes do placeholder */}
-      <form id="form" action="#" method="post">
+      <form id="form" action="#" method="post" className={styles.FormCa}>
         <input type="text" name="seach" id="seach" placeholder="Faça sua busca" required/>
         <div>
           {/* Add/Coração */}
           <label>
-            <div id='msg' className={styles.BoxC}>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam accusamus doloribus sequi obcaecati, ea numquam quas autem corrupti inventore beatae nisi architecto voluptatem cum consequatur non sed, porro rem veritatis necessitatibus! Cumque voluptatum qui quaerat praesentium in harum nisi officia hic ab sunt totam sequi eos minima, architecto earum sapiente iste sit, nihil tempora provident quidem soluta incidunt voluptates. Nostrum accusamus laudantium neque illum eos quidem fugit veniam magni molestiae nobis repellat aliquid assumenda placeat doloremque sint, deleniti veritatis labore, animi nam praesentium. Recusandae qui, commodi, officia dolorem autem tenetur neque labore enim quisquam, corporis facere maiores adipisci delectus molestiae!</p>
-            </div>
+              <Coração/>
           </label>
         </div>
       </form>

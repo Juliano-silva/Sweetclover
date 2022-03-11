@@ -1,6 +1,7 @@
 .Caixa{
     border: 1px solid gray;
     width: 52em;
+    height: 60em;
     margin: auto;
     display: block;
 }
@@ -73,6 +74,18 @@
 .boxCima{
     border: 2px solid red;
     height: 4em;
+}
+.comentáriosB{
+    border: 1px solid red;
+    height: 10em;
+    overflow: auto;
+}
+.AddMovieBOx{
+    border: 5px solid rgb(173, 0, 29);
+}
+input{
+    border: 1px solid red;
+    margin-top: 100px;
 }
 @keyframes pulse {
     0%{

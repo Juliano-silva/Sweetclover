@@ -8,13 +8,9 @@ import ico from '../icones/perfil.png'
 import {BsThreeDots} from "react-icons/bs"; 
 import { MdOutlineMessage } from "react-icons/md";
 import Url from '../img/React js.jpg'
-import Nome from '../API by name/Nome'
-import MovieList from '../API by Mensagem/MovieList';
+import MovieList from '../API by Mensagem/MovieList'
 import { MovieProvider } from '../API by Mensagem/MovieContext';
 import AddMovie from '../API by Mensagem/AddMovie'
-function text(){
-  const comen = document.getElementById("comentário")
-}
 function Box(){
     return(
       // Parte de cima
@@ -31,16 +27,19 @@ function Box(){
           {/* Parte de baixo */}
           <div className={styles.boxBaixo}>
             <button><FormControlLabel className={styles.check} control={<Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />}/></button>
-            <button onClick={text}>
+            <button>
               <MdOutlineMessage/>
               </button>
           <div className={styles.ParteMB}>
-          <h5>Curtido por lorem e outras lorem</h5>
-          <p id='comentário'><Nome/>
+          <h5>Curtido por Cuacoxo e outras 100 pessoas </h5>
+          <div>
+          <div className={styles.comentáriosB}>
           <MovieProvider>
+            <MovieList/>
             <AddMovie/>
-            </MovieProvider>
-            </p>
+          </MovieProvider>
+          </div>
+          </div>
             </div>
           </div>
           </div>
